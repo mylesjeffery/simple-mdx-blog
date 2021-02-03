@@ -1,5 +1,11 @@
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: "My MDX Blog",
+    description: "dsf df sdf sdf sdf sdf sdf sdf ",
+    url: "https://mylesjeffery.com",
+    image: "/office.jpg",
+    author: "Myles",
+  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
