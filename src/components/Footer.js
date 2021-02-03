@@ -4,6 +4,7 @@ import {
   FooterWrapper,
   FooterSocialWrapper,
   FooterSocialIcons,
+  P,
 } from "../elements"
 
 export const Footer = () => {
@@ -27,24 +28,38 @@ export const Footer = () => {
     <FooterWrapper>
       <FooterSocialWrapper>
         <FooterSocialIcons>
-          <a href="https://facebook.com" target="_blank" rel="noopener norefer">
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={data.facebook.publicURL} alt="facebook" />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener norefer">
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={data.linkedin.publicURL} alt="linkedin" />
           </a>
           <a
             href="https://instagram.com"
             target="_blank"
-            rel="noopener norefer"
+            rel="noopener noreferrer"
           >
             <img src={data.instagram.publicURL} alt="instagram" />
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener norefer">
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={data.twitter.publicURL} alt="twitter" />
           </a>
         </FooterSocialIcons>
-        <p>2020 company. all rights reserved.</p>
+        <P size="xSmall" color="dark3">
+          2020 company. all rights reserved.
+        </P>
       </FooterSocialWrapper>
     </FooterWrapper>
   )
